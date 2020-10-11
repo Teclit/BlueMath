@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px ;
+    padding: 10px 0;
+}
+#brand {
+    float: left;
+}
+h1 a {
+    font-size: 50px;
+    font-weight: 100px;
+    color: rgb(9, 9, 47);
+    text-decoration: none;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
+    background: -webkit-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
+    background: -o-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
+    background: -moz-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
+    width: 350px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(3, 3, 34);
+    border-radius: 10px;
+
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #1c3996;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.clear{
+    clear: both;   
+}
