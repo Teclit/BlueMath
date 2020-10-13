@@ -9,8 +9,8 @@ body{
 }
 
 #header {
-    height: 100px ;
-    padding: 10px 0;
+    height: 80px;
+    padding: 20px 20px;
 }
 #brand {
     float: left;
@@ -18,20 +18,19 @@ body{
 h1 a {
     font-size: 50px;
     font-weight: 100px;
-    color: rgb(9, 9, 47);
+    color: rgb(11, 11, 109);
     text-decoration: none;
 }
 
 #searchBox {
     float: right;
-    background: linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
-    background: -webkit-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
-    background: -o-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
-    background: -moz-linear-gradient(rgb(7, 66, 114), rgb(207, 196, 196));
+    background: linear-gradient(rgb(3, 42, 75), rgb(7, 20, 131));
+    background: -webkit-linear-gradient(rgb(3, 42, 75),  rgb(7, 20, 131));
+    background: -o-linear-gradient(rgb(3, 42, 75),  rgb(7, 20, 131));
+    background: -moz-linear-gradient(rgb(3, 42, 75),  rgb(7, 20, 131));
     width: 350px;
-    height: 50px;
-    padding: 20px 20px 0 20px;
-    margin-top: 20px;
+    height: 30px;
+    padding: 20px 20px;
     border-radius: 15px;
 }
 
@@ -41,6 +40,7 @@ h1 a {
     padding: 5px;
     font-size: 15px;
     color: rgb(3, 3, 34);
+    background: white url(images/search.png) right center no-repeat;
     border-radius: 10px;
 
 }
@@ -56,4 +56,125 @@ h1 a {
 }
 .clear{
     clear: both;   
+}
+#menu {
+    height: 80px;
+    background: linear-gradient(rgb(3, 42, 75),  rgb(7, 20, 131));
+    background: -webkit-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    background: -o-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    background: -moz-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 40px;
+    height: 40px;
+    border-right: 1px solid white ;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(250, 250, 250);
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size : 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#introduction{
+    background: linear-gradient(rgb(3, 42, 75),  rgb(7, 20, 131));
+    background: -webkit-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    background: -o-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    background: -moz-linear-gradientrgb((3, 42, 75),  rgb(7, 20, 131));
+    padding: 20px;
+    margin:16px 0 ;
+}
+#introduction h3{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+#introduction P{
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+}    
+
+.sidebar{
+    height: 500px;
+    width: 500px;
+    border:1px solid blue;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    font-size: 30px;
+    color: rgb(11, 11, 109);
+}
+.sidebar ul{
+    padding-top: 10px;
+}
+
+#leftsidebar ul li{
+    padding:4px 0 4px  10px;
+    list-style-image:url(images/arrow.png);
+}
+#rightsidebar ul li{
+    padding: 18px 0 18px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(11, 11, 109);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, sidebar ul li a.active{
+    text-decoration: none;
+    color: blue;
+    font-size: 23px;
+    font-weight: bold;
+}
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    text-align: center;
+    color:white;
+    background: linear-gradient(rgb(3, 42, 75), rgb(7, 20, 131));
+    background: -webkit-linear-gradient(rgb(3, 42, 75), rgb(7, 20, 131));
+    background: -o-linear-gradient(rgb(3, 42, 75), rgb(7, 20, 131));
+    background: -moz-linear-gradient(rgb(3, 42, 75), rgb(7, 20, 131));
+    padding: 10px 30px;
+    margin-top: 15px
 }
